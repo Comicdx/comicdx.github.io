@@ -1,3 +1,7 @@
+setTimeout(function(){
+    $('.loaderbg').fadeToggle();
+}, 1500);
+
 // toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
